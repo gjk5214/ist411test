@@ -43,6 +43,6 @@ public class ClientServer extends Thread {
             str = str + '\n';
         for (int k = 0; k < str.length() ; k++)
             oStream.write(str.charAt(k));
-    } // writeToSocket()
+    } // witeToSocket()
 } // ClientServer
 
